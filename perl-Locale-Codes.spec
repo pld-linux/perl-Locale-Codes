@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Locale
-%define	pnam	Codes
+%define		pdir	Locale
+%define		pnam	Codes
 Summary:	Locale::Codes Perl module
 Summary(cs):	Modul Locale::Codes pro Perl
 Summary(da):	Perlmodul Locale::Codes
