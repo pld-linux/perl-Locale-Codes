@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Locale
 %define	pnam	Codes
-Summary:	Locale-Codes perl module
-Summary(pl):	Modu³ perla Locale-Codes
+Summary:	Locale::Codes perl module
+Summary(pl):	Modu³ perla Locale::Codes
 Name:		perl-Locale-Codes
 Version:	1.06
 Release:	6
@@ -15,11 +15,11 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Locale-Codes contains two modules which can be used to process ISO two
+Locale::Codes contains two modules which can be used to process ISO two
 letter codes for identifying language and country.
 
 %description -l pl
-Locale-Codes zawiera dwa modu³y umo¿liwiaj±ce przetwarzanie
+Locale::Codes zawiera dwa modu³y umo¿liwiaj±ce przetwarzanie
 dwuliterowych kodów ISO identyfikuj±cych jêzyk i kraj.
 
 %prep
