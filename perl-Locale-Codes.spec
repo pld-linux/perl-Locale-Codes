@@ -4,10 +4,10 @@ Summary(pl):	Modu³ perla Locale-Codes
 Name:		perl-Locale-Codes
 Version:	1.00
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Locale/Locale-Codes-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Locale/Locale-Codes-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -15,12 +15,12 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Locale-Codes contains two modules which can be used to process ISO two letter 
-codes for identifying language and country. 
+Locale-Codes contains two modules which can be used to process ISO two
+letter codes for identifying language and country.
 
 %description -l pl
-Locale-Codes zawiera dwa modu³y umo¿liwiaj±ce przetwarzanie dwuliterowych 
-kodów ISO identyfikuj±cych jêzyk i kraj.
+Locale-Codes zawiera dwa modu³y umo¿liwiaj±ce przetwarzanie
+dwuliterowych kodów ISO identyfikuj±cych jêzyk i kraj.
 
 %prep
 %setup -q -n Locale-Codes-%{version}
