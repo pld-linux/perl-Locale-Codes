@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl Locale::Codes
 Summary(zh_CN):	Locale::Codes Perl дё©И
 Name:		perl-Locale-Codes
 Version:	2.06
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
