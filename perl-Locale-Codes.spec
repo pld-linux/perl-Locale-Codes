@@ -1,3 +1,7 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Locale
 %define		pnam	Codes
@@ -19,8 +23,8 @@ Summary(sv):	Locale::Codes Perlmodul
 Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Locale::Codes
 Summary(zh_CN):	Locale::Codes Perl Ä£¿é
 Name:		perl-Locale-Codes
-Version:	2.04
-Release:	2
+Version:	2.06
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -43,6 +47,7 @@ dwuliterowych kodów ISO identyfikuj±cych jêzyk i kraj.
 %build
 perl Makefile.PL
 %{__make}
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
