@@ -3,7 +3,7 @@ Summary:	Locale-Codes perl module
 Summary(pl):	Modu³ perla Locale-Codes
 Name:		perl-Locale-Codes
 Version:	1.06
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
