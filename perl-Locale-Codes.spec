@@ -1,11 +1,26 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Locale
-%define	pnam	Codes
-Summary:	Locale::Codes perl module
-Summary(pl):	Modu³ perla Locale::Codes
+%define		pdir	Locale
+%define		pnam	Codes
+Summary:	Locale::Codes Perl module
+Summary(cs):	Modul Locale::Codes pro Perl
+Summary(da):	Perlmodul Locale::Codes
+Summary(de):	Locale::Codes Perl Modul
+Summary(es):	Módulo de Perl Locale::Codes
+Summary(fr):	Module Perl Locale::Codes
+Summary(it):	Modulo di Perl Locale::Codes
+Summary(ja):	Locale::Codes Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	Locale::Codes ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul Locale::Codes
+Summary(pl):	Modu³ Perla Locale::Codes
+Summary(pt):	Módulo de Perl Locale::Codes
+Summary(pt_BR):	Módulo Perl Locale::Codes
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Locale::Codes
+Summary(sv):	Locale::Codes Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Locale::Codes
+Summary(zh_CN):	Locale::Codes Perl Ä£¿é
 Name:		perl-Locale-Codes
 Version:	2.04
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -41,5 +56,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc ChangeLog README
 %{perl_sitelib}/Locale/*.pm
-%{perl_sitelib}/Locale/*.pod
 %{_mandir}/man3/*
