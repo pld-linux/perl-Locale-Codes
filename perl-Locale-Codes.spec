@@ -14,7 +14,7 @@ Summary(fr):	Module Perl Locale::Codes
 Summary(it):	Modulo di Perl Locale::Codes
 Summary(ja):	Locale::Codes Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Locale::Codes ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Locale::Codes
+Summary(nb):	Perlmodul Locale::Codes
 Summary(pl):	Modu³ Perla Locale::Codes
 Summary(pt):	Módulo de Perl Locale::Codes
 Summary(pt_BR):	Módulo Perl Locale::Codes
