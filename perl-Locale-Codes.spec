@@ -6,22 +6,22 @@
 %define		pdir	Locale
 %define		pnam	Codes
 Summary:	Locale::Codes Perl module
-Summary(cs):	Modul Locale::Codes pro Perl
-Summary(da):	Perlmodul Locale::Codes
-Summary(de):	Locale::Codes Perl Modul
-Summary(es):	MÛdulo de Perl Locale::Codes
-Summary(fr):	Module Perl Locale::Codes
-Summary(it):	Modulo di Perl Locale::Codes
-Summary(ja):	Locale::Codes Perl •‚•∏•Â°º•Î
-Summary(ko):	Locale::Codes ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul Locale::Codes
-Summary(pl):	Modu≥ Perla Locale::Codes
-Summary(pt):	MÛdulo de Perl Locale::Codes
-Summary(pt_BR):	MÛdulo Perl Locale::Codes
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl Locale::Codes
-Summary(sv):	Locale::Codes Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl Locale::Codes
-Summary(zh_CN):	Locale::Codes Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul Locale::Codes pro Perl
+Summary(da.UTF-8):   Perlmodul Locale::Codes
+Summary(de.UTF-8):   Locale::Codes Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl Locale::Codes
+Summary(fr.UTF-8):   Module Perl Locale::Codes
+Summary(it.UTF-8):   Modulo di Perl Locale::Codes
+Summary(ja.UTF-8):   Locale::Codes Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   Locale::Codes ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul Locale::Codes
+Summary(pl.UTF-8):   Modu≈Ç Perla Locale::Codes
+Summary(pt.UTF-8):   M√≥dulo de Perl Locale::Codes
+Summary(pt_BR.UTF-8):   M√≥dulo Perl Locale::Codes
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Locale::Codes
+Summary(sv.UTF-8):   Locale::Codes Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl Locale::Codes
+Summary(zh_CN.UTF-8):   Locale::Codes Perl Ê®°Âùó
 Name:		perl-Locale-Codes
 Version:	2.07
 Release:	1
@@ -39,9 +39,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Locale::Codes contains two modules which can be used to process ISO two
 letter codes for identifying language and country.
 
-%description -l pl
-Locale::Codes zawiera dwa modu≥y umoøliwiaj±ce przetwarzanie
-dwuliterowych kodÛw ISO identyfikuj±cych jÍzyk i kraj.
+%description -l pl.UTF-8
+Locale::Codes zawiera dwa modu≈Çy umo≈ºliwiajƒÖce przetwarzanie
+dwuliterowych kod√≥w ISO identyfikujƒÖcych jƒôzyk i kraj.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
