@@ -6,22 +6,22 @@
 %define		pdir	Locale
 %define		pnam	Codes
 Summary:	Locale::Codes Perl module
-Summary(cs.UTF-8):   Modul Locale::Codes pro Perl
-Summary(da.UTF-8):   Perlmodul Locale::Codes
-Summary(de.UTF-8):   Locale::Codes Perl Modul
-Summary(es.UTF-8):   Módulo de Perl Locale::Codes
-Summary(fr.UTF-8):   Module Perl Locale::Codes
-Summary(it.UTF-8):   Modulo di Perl Locale::Codes
-Summary(ja.UTF-8):   Locale::Codes Perl モジュール
-Summary(ko.UTF-8):   Locale::Codes 펄 모줄
-Summary(nb.UTF-8):   Perlmodul Locale::Codes
-Summary(pl.UTF-8):   Moduł Perla Locale::Codes
-Summary(pt.UTF-8):   Módulo de Perl Locale::Codes
-Summary(pt_BR.UTF-8):   Módulo Perl Locale::Codes
-Summary(ru.UTF-8):   Модуль для Perl Locale::Codes
-Summary(sv.UTF-8):   Locale::Codes Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl Locale::Codes
-Summary(zh_CN.UTF-8):   Locale::Codes Perl 模块
+Summary(cs.UTF-8):	Modul Locale::Codes pro Perl
+Summary(da.UTF-8):	Perlmodul Locale::Codes
+Summary(de.UTF-8):	Locale::Codes Perl Modul
+Summary(es.UTF-8):	Módulo de Perl Locale::Codes
+Summary(fr.UTF-8):	Module Perl Locale::Codes
+Summary(it.UTF-8):	Modulo di Perl Locale::Codes
+Summary(ja.UTF-8):	Locale::Codes Perl モジュール
+Summary(ko.UTF-8):	Locale::Codes 펄 모줄
+Summary(nb.UTF-8):	Perlmodul Locale::Codes
+Summary(pl.UTF-8):	Moduł Perla Locale::Codes
+Summary(pt.UTF-8):	Módulo de Perl Locale::Codes
+Summary(pt_BR.UTF-8):	Módulo Perl Locale::Codes
+Summary(ru.UTF-8):	Модуль для Perl Locale::Codes
+Summary(sv.UTF-8):	Locale::Codes Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl Locale::Codes
+Summary(zh_CN.UTF-8):	Locale::Codes Perl 模块
 Name:		perl-Locale-Codes
 Version:	2.07
 Release:	1
