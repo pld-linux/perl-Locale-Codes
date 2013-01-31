@@ -23,13 +23,13 @@ Summary(sv.UTF-8):	Locale::Codes Perlmodul
 Summary(uk.UTF-8):	Модуль для Perl Locale::Codes
 Summary(zh_CN.UTF-8):	Locale::Codes Perl 模块
 Name:		perl-Locale-Codes
-Version:	2.07
-Release:	2
+Version:	3.24
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	af0537cc4a882096d0320612c440df6d
+# Source0-md5:	a49f770d424b634a0c9726a8202984a8
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -66,4 +66,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc ChangeLog README
 %{perl_vendorlib}/Locale/*.pm
+%{perl_vendorlib}/Locale/Codes/*.pm
 %{_mandir}/man3/*
