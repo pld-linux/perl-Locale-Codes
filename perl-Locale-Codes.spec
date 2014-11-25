@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Locale
 %define		pnam	Codes
+%include	/usr/lib/rpm/macros.perl
 Summary:	Locale::Codes Perl module
 Summary(cs.UTF-8):	Modul Locale::Codes pro Perl
 Summary(da.UTF-8):	Perlmodul Locale::Codes
@@ -30,14 +30,15 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a49f770d424b634a0c9726a8202984a8
+URL:		http://search.cpan.org/dist/Locale-Codes/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Locale::Codes contains two modules which can be used to process ISO two
-letter codes for identifying language and country.
+Locale::Codes contains two modules which can be used to process ISO
+two letter codes for identifying language and country.
 
 %description -l pl.UTF-8
 Locale::Codes zawiera dwa moduły umożliwiające przetwarzanie
