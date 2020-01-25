@@ -4,7 +4,6 @@
 
 %define		pdir	Locale
 %define		pnam	Codes
-%include	/usr/lib/rpm/macros.perl
 Summary:	Locale::Codes Perl module
 Summary(cs.UTF-8):	Modul Locale::Codes pro Perl
 Summary(da.UTF-8):	Perlmodul Locale::Codes
